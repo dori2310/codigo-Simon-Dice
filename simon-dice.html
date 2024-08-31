@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Dice - Versión Mejorada</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="simon-dice.css" />
+  </head>
+  <body>
+    <div class="simon">
+      <div class="title">Simon Dice</div>
+      <div class="buttonContainer">
+        <div class="square red"></div>
+        <div class="square blue"></div>
+        <div class="square green"></div>
+        <div class="square yellow"></div>
+      </div>
+      <button id="startButton">Iniciar Juego</button>
+      <button id="resetButton">Reiniciar</button>
+      <div id="round"></div>
+      <div id="score">Puntuación: 0</div>
+      <div id="highScore">Mejor Puntuación: 0</div>
+    </div>
+
+    <div id="gameOver">
+      <h2>¡Juego Terminado!</h2>
+      <p id="finalScore"></p>
+      <button id="playAgain">Jugar de nuevo</button>
+    </div>
+
+    <script src="simon-dice.js"></script>
+  </body>
+</html>
